@@ -1,8 +1,10 @@
 {
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.0.0-insiders.d539a72",
-    "tailwindcss": "^3.4.6"
+    "tailwindcss": "^3.4.17"
   },
   "name": "html-css",
   "version": "1.0.0",
@@ -66,7 +68,6 @@
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
     "pirates": "^4.0.6",
-    "postcss": "^8.4.39",
     "postcss-import": "^15.1.0",
     "postcss-js": "^4.0.1",
     "postcss-load-config": "^4.0.2",
@@ -100,7 +101,7 @@
     "yaml": "^2.4.5"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./styles/styles.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./styles/styles.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "",
