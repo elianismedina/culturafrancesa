@@ -101,7 +101,7 @@
     "yaml": "^2.4.5"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./styles/styles.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./styles/tailwind.css -o ./styles/output.css --watch"
   },
   "keywords": [],
   "author": "",
